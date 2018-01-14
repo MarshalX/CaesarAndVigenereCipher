@@ -11,9 +11,13 @@ namespace CaesarAndVigenereCipher {
         public Form1() {
             InitializeComponent();
 
-            for (int i = 1072; i < 1104; ++i)
+            for (int i = 1072; i < 1104; ++i) {
+                if (i == 1078)
+                    alphabetRU.Add(Convert.ToChar(1105));
+
                 alphabetRU.Add(Convert.ToChar(i));
-            
+            }
+
             for (int i = 97; i < 123; ++i)
                 alphabetEN.Add(Convert.ToChar(i));
         }

@@ -2,7 +2,7 @@
 
 namespace CaesarAndVigenereCipher {
     class Vigenere {
-        const int lettersRU = 32;
+        const int lettersRU = 33;
         const int lettersEN = 26;
 
         private List<char> temp = null;
